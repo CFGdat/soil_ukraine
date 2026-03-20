@@ -27,7 +27,7 @@ st.markdown("""
 # =========================================================
 # АУТЕНТИФІКАЦІЯ
 # =========================================================
-APP_PASSWORD = "agro2024"   # ← змініть на свій пароль
+APP_PASSWORD = st.secrets.get("APP_PASSWORD", "agro2024")  # fallback якщо secrets не налаштовано
 
 def check_password():
     if st.session_state.get("authenticated"):
