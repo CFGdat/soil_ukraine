@@ -1,0 +1,10 @@
+geopandas==0.14.4
+pandas==2.2.2
+folium==0.16.0
+leafmap==0.30.0
+streamlit==1.35.0
+Jinja2==3.1.4
+shapely==2.0.4
+pyproj==3.6.1
+fiona==1.9.6
+ 
